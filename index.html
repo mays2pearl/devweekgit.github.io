@@ -4,134 +4,171 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maysa Andrade CV</title>
+
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Maysa Andrade</title>
 </head>
 <body>
+    <div class="icones col-sm-12 " >
+        <!-- Aqui inicia a div com a class icones que será o bloco que irá conter os icones ou botões. -->
+         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511961787592" rel="noopener" target="_blank" title="whatsapp">
+       <!-- Aqui é inserido o link com a url da api do whatsapp com o caminhi da página. Junto no caminho da página é utilizado o PHP para pegar dinamicamente a página atual para isso é usado o domínio seguido de $_SERVER["REQUEST_URI"]; ?>. -->
+           <img class="tamIcone" src="https://cdn.discordapp.com/attachments/882496817550483510/902932848124788736/whatsapp.png" alt="botão de compartilhamento whatsapp" title="Iniciar conversa no whatsapp">
+       <!-- Aqui é inserido a imagem. -->
+         </a>
+       <!-- Fecha o link. -->
+       </div> 
+       <!-- Fecha a div icones -->
     <main class="resume-contents">
         <section class="left-section">
-            <section class="left-section-contents">
+            <div class="left-section-content">
                 <div class="profile">
                     <img class="profile-image" src="img/eu.jpg" alt="Profile image">
                     <p class="name">Maysa Andrade</p>
-                    <p class="profession">Developer</p>
-                </div>
+                    <p class="profession">Desenvolvedora</p>
+                    
                 <div class="contact-info">
                     <p class="left-title">Contato</p>
                     <ul>
-                        <li><i class="fa fa-phone"></i>+55 11 99999-0000</li>
-                        <li><i class="fa fa-envelope"></i>maysa@hotmail</li>
-                        <li><i class="fa fa-globe"></i>https://portfolio-may.netlify.app/</li>
-                        <li><i class="fa fa-github"></i>mays2pearl</li>
+                        <li><i class="fa fa-phone"></i>+5511 96178-7592
+                        </li>
+                        <li><i class="fa fa-envelope"></i><a class="link" href="https://mail.google.com/mail/?view=cm&fs=1&to=maysas2perola@gmail.com" rel="noopener" target="_blank" title="Gmail">maysas2perola@gmail.com</a>
+                        </li>
+                        <li><i class="fa fa-globe"></i> <a class="link" href="https://portfolio-may.netlify.app/" rel="noopener" target="_blank" title="Site Portifolio"> https://portfolio-may.netlify.app/</a>
+                        </li>
+                        <li><i class="fa fa-github"> </i><a class="link" href="https://github.com/mays2pearl" rel="noopener" target="_blank" title="GitHub"> mayspearl </a>
+                        </li>
+                        <li><i class="fa fa-linkedin"></i> <a class="link" href="https://www.linkedin.com/in/maysa-andrade-maysa-andrade/" target="_blank" rel="noopener"
+                            title="Linkedin"> Meu perfil no Linkedin</a></li>
                     </ul>
                 </div>
                 <div class="skills">
                     <p class="left-title">Skills</p>
                     <ul>
-                        <li><p>HTML, CSS Git & GitHub</p></li>
-                        <li><p>React, Java & SQL</p></li>
-                        <li><p>IOS Swift</p></li>
+                        <li><p><img class="list-item" src="img/swift.jpg">Swift</p></li>
+                        <li><p><img class="list-item" src="img/java.jpg">Java</p></li>
+                        <li><p><img class="list-item" src="img/react-logo.ico">React</p></li>
+                        <li><p><img class="list-item" src="img/html-logo.ico" src="img/css-logo.ico">HTML5 & CSS3</p></li>
+                        <li><p><img class="list-item" src="img/mysql.png">SQL, MySQL</p></li>
+                        <li><p><img class="list-item" src="img/github-logo.png">Git & GitHub</p></li>
+                        <li><p><img class="list-item" src="img/azure.jpg">Azure</p></li>
                     </ul>
                 </div>
-            </section>
-            </section>
-            <section  class="right-section">
-                <div class="right-section-contents">
-                    <section class="about gap">
-                        <div class="right-title">Sobre Mim</div>
-                        <p class="about-me-contents">Olá, sou a Maysa. 
-                            <br>Um pouco mais sobre o que faço 
-                            <br>Quais são minhas competencias
-                        </p>
-                    </section>
+                <div class="skills">
+                    <p class="left-title">Certificações</p>
+                    <ul>
+                        <li><p><img class="list-cert" src="img/power.svg">Microsoft Certified: Power Platform Fundamentals</p></li>
+                        <li><p><img class="list-cert" src="img/power.svg">Microsoft Certified: Azure Fundamentals</p></li>
+                        <li><p><img class="list-cert" src="img/power.svg">Microsoft Certified: Azure Data Fundamentals</p></li>
+                        <li><p><img class="list-cert" src="img/mta.svg">MTA: Introduction to Programming Using JavaScript</p></li>
+                        <li><p><img class="list-cert" src="img/mta.svg">MTA: Introduction to Programming Using HTML and CSS</p></li>
+                    </ul>
                 </div>
+            </div>
+        </section>
+
+        <section class="right-section">
+            <div class="right-section-contents">
+                <!-- sobre mim -->
+                <section class="about gap">
+                    <div class="right-title">
+                        <div>
+                            <p>Olá, me chamo</p>
+                            <h1 class="anima">MAYSA ANDRADE</h1>
+                        </div>
+                        
+                    </div>
+                    <p class="about-me-contents">
+                        Sobre Mim:<br>
+                        <br> Sou uma pessoa que esta sempre em busca de crescimento, busco trilhar caminhos de sucesso e de conquistas! Comecei a estudar prgramação e desenvolvimento em 2021, liguagens IOS Mobile, java, SQL, React. Graças a muito esforço, dedicação e empenho cheguei até aqui com otimos resultados! E sigo melhorando cada dia mais!
+                    </p>
+                </section>
+                <!-- fim sobre mim -->
                 <section class="experience gap">
-                    <div class="right-title">Experiencia</div>
+                    <div class="right-title">Formação</div>
                     <div class="experience-contents">
                         <div class="exp-left">
-                            <p class="exp-company-name">Empresa 01</p>
-                            <p class="exp-time-period">2021 - Present</p>
+                            <p class="exp-company-name">UNINOVE</p>
+                            <p class="exp-time-period">Superior cursando - 3° Semestre</p>
                         </div>
                         <div class="exp-right">
-                            <p class="exp-position">Engenheiro de software</p>
-                            <p class="exp-desc">Descreva aqui principais atividades</p>
+                            <p class="exp-position">Análise e Desenvolvimento de Sistemas</p>
                         </div>
+                    </div>
+                </section>
+
+                <!-- experiencia -->
+                <section class="experience gap">
+                    <div class="right-title">Experiência</div>
+                    <div class="experience-contents">
                         <div class="exp-left">
-                            <p class="exp-company-name">Empresa 02</p>
-                            <p class="exp-time-period">2021 - Present</p>
+                            <p class="exp-company-name">Avanade Brasil</p>
+                            <p class="exp-time-period">2021-Ate o momento</p>
                         </div>
                         <div class="exp-right">
-                            <p class="exp-position">Engenheiro de software</p>
-                            <p class="exp-desc">Descreva aqui principais atividades</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="education gap">
-                    <div class="right-title">Formação Academica</div>
-                    <div class="education-contents">
-                        <div class="education-left">
-                            <p class="education-school-name">UNINOVE</p>
-                            <p class="educationp-time-period">2021~2024</p>
-                        </div>
-                        <div class="education-right">
-                            <p class="education-subject">AnÁlise e Desenvolvimento de Sistemas</p>
-                            <p class="education-desc">
-                                Graduação tecnologa
-                            </p>
-                        </div>
-                    </div>
-                    <div class="education-contents">
-                        <div class="education-left">
-                            <p class="education-school-name">Digital House</p>
-                            <p class="educationp-time-period">2021</p>
-                        </div>
-                        <div class="education-right">
-                            <p class="education-subject">Desenvolvimento IOS Mobile</p>
-                            <p class="education-desc">
-                                Formação intensiva profissional
+                            <p class="exp-position">Estagiaria de desenvolvimento</p>
+                            <p class="exp-desc">
+                                Trabalhando na maior empresa de consultoria em tecnologia do Brasil e do mundo, pude contribuir em diversos projetos de sucesso atendendo clientes de diversos setores, sempre realizando as entregas e os resultados esperado.
                             </p>
                         </div>
                     </div>
                 </section>
+                <!-- fim experiencia -->
+                <!-- cursos -->
                 <section class="awards gap">
                     <div class="right-title">Cursos</div>
                     <div class="awards-contents">
                         <div class="awards-left">
-                        <p class="awards-company-name">Generation Brasil</p>
-                        <p class="awards-time-period">Novembro de 2021</p>
+                            <p class="awards-company-name">Digital House</p>
+                            <p class="awards-time-period">Abril de 2021 a Novembro de 2021</p>
                         </div>
                         <div class="awards-right">
-                            <p class="awards-company-name">Digital House</p>
-                            <p class="awards-time-period">Novembro de 2021</p>  
+                            <p class="awards-name">Desenvolvedora IOS Mobile</p>
+                            <p class="awards-desc">
+                                Curso intensivo profissionalizante de desenvolvimento IOS Mobile com a linguagem nativa swift. Assuntos abordados:  Programação orientada a objetos
+                                - Interface com usuário
+                                - Integração com sistemas externos
+                                - Arquitetura
+                                - Persistência
+                                - Customização
+                                - Consumo de API´s - Cocoapods
+                            </p>
                         </div>
-                    </div>
-                </section>
-                <section class="awards gap">
-                    <div class="right-title">Cursos</div>
-                    <div class="awards-contents">
-                        <div class="awards-left">
-                        <p class="awards-company-name">Generation Brasil</p>
-                        <p class="awards-time-period">Novembro de 2021</p>
-                        </div>
-                        <div class="awards-right">
-                            <p class="awards-company-name">Digital House</p>
-                            <p class="awards-time-period">Novembro de 2021</p>  
-                        </div>
-                        
                     </div>
                     <div class="awards-contents">
                         <div class="awards-left">
-                        <p class="awards-company-name">Generation Brasil</p>
-                        <p class="awards-time-period">Novembro de 2021</p>
+                            <p class="awards-company-name">Generation Brasil</p>
+                            <p class="awards-time-period">Agosto de 2021 a Novembro de 2021</p>
                         </div>
                         <div class="awards-right">
-                            <p class="awards-company-name">Digital House</p>
-                            <p class="awards-time-period">Novembro de 2021</p>  
+                            <p class="awards-name">Java Fullstack</p>
+                            <p class="awards-desc">
+                                Bootcamp de formação intensiva onde adquiri conhecimentos em • SCRUM - 
+                                • JAVA - 
+                                • MySQL - 
+                                • Spring Boot - Introduction to the REST / REST Full Layers API, relationship, Security;
+                                • Docker - 
+                                • Web Fundamentals -React - HTML5, CSS3, JS, TS;
+                            </p>
                         </div>
-                        
                     </div>
                 </section>
-             </section>
+                <!-- fim cursos -->
+            </div>
+        </section>
     </main>
+    <footer class="foo">
+        <p>© 2021 Maysa Andrade - Desenvolvedora </p>
+      </footer>
 </body>
+
 </html>
